@@ -11,4 +11,14 @@
         <servlet-name>noodles</servlet-name>
         <url-pattern>/noodles</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+            <servlet-name>fruit</servlet-name>
+            <servlet-class>com.netease.FruitServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+           <servlet-name>fruit</servlet-name>
+           <url-pattern>/fruit</url-pattern>
+    </servlet-mapping>
+
 </web-app>
